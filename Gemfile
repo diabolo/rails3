@@ -10,6 +10,7 @@ gem "haml-rails"
 gem 'haml'
 gem 'compass', '>= 0.10.4.pre'
 gem 'compass-susy-plugin', '>= 0.8.0'
+gem 'devise'
 # Use unicorn as the web server
 # gem 'unicorn'
 

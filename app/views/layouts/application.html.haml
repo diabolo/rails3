@@ -6,4 +6,6 @@
     = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
 
   %body.container
+    %p.notice= notice
+    %p.alert= alert
     = yield 
