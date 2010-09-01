@@ -29,6 +29,9 @@ gem 'compass-susy-plugin', '>= 0.8.0'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
+  gem "wirble"
+  gem "method_lister"
+  gem "flyrb"
   gem "ruby-debug"    
   gem "rspec-rails", ">= 2.0.0.beta.20"
   #gem "webrat"
