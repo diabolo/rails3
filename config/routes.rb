@@ -1,4 +1,6 @@
 Rails3::Application.routes.draw do
+  devise_for :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -6,6 +8,7 @@ Rails3::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
   match '/test' => 'test#index'
+  root :to => "test#index"
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
